@@ -5,6 +5,12 @@ area we live in so we've had to use several techniques to increase the
 overall capacity of our internet access and one approach has been to use 
 3G/4G connections
 
+## Quick Start
+
+It *should* just be a case of copying all of the files under `etc` into their
+matching locations on running/working Raspberry Pi, reboot, and everything
+hopefully will work :D
+
 
 ## Hardware
 
@@ -17,6 +23,9 @@ These are the parts I used
 
 You could certainly use a more up-to-date Raspberry Pi device and even the 
 PoE HAT for network/power.
+
+The Raspberry Pi is running Raspbian 9.4 (stretch) Lite - the version that 
+doesn't include a desktop/GUI.
 
 
 ## Topology
