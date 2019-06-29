@@ -1,0 +1,7 @@
+auto vlan10
+iface vlan10 inet static
+	address 192.168.130.19
+	netmask 255.255.255.0
+	vlan-raw-device eth0
+        post-up /sbin/ip rule add from 192.168.130.4/32 table three
+
